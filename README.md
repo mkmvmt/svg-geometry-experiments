@@ -1,5 +1,7 @@
 # svg-geometry-experiments
-Placing shapes relative to the center of a SVG document
+Placing shapes relative to the center of a SVG document.
+
+Based on conversation [https://github.com/copilot/c/1c5c5a41-f6d1-4978-af3d-4dd813437648](https://github.com/copilot/c/1c5c5a41-f6d1-4978-af3d-4dd813437648)
 
 SVG and JavaScript experiments for visualizing angle, position, and modular geometric constructions.
 

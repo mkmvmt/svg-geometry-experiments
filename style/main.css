@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+body, #radii-svg {
+  width: 100vw; height: 100vh;
+  display: block;
+  position: absolute;
+  left: 0; top: 0;
+}
+.angle-label {
+  font: bold 18px sans-serif;
+  fill: #bbb;
+  stroke: white;
+  stroke-width: 0.5;
+  paint-order: stroke fill;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+  opacity: 0.93;
+  user-select: none;
+}

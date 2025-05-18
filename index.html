@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Le Document Concentrique</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <svg id="radii-svg"></svg>
+  <script type="module">
+    import { drawRadiiWithLabels } from './src/drawRadii.js';
+
+    function render() {
+      const svg = document.getElementById('radii-svg');
+      drawRadiiWithLabels(svg, 12);
+    }
+
+    render();
+    window.addEventListener('resize', render);
+  </script>
+</body>
+</html>
